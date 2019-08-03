@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CalculatorAPP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -286,13 +286,13 @@
                         </subviews>
                         <color key="backgroundColor" red="0.80773848295211792" green="0.80403047800064087" blue="0.79607725143432617" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="h3M-ds-tY6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1In-97-VNb"/>
+                            <constraint firstItem="h3M-ds-tY6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1In-97-VNb"/>
                             <constraint firstItem="h3M-ds-tY6" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="450:812" id="UHk-Tr-rr3"/>
                             <constraint firstItem="h3M-ds-tY6" firstAttribute="top" secondItem="J64-GI-xoM" secondAttribute="bottom" constant="10" id="Vlw-Dp-lIp"/>
-                            <constraint firstItem="J64-GI-xoM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="3" id="cpf-xF-Uy0"/>
-                            <constraint firstAttribute="bottom" secondItem="h3M-ds-tY6" secondAttribute="bottom" id="dbT-XB-sxQ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h3M-ds-tY6" secondAttribute="trailing" id="pHv-Qu-9q2"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="J64-GI-xoM" secondAttribute="trailing" constant="3" id="tYE-og-ZLu"/>
+                            <constraint firstItem="J64-GI-xoM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="3" id="cpf-xF-Uy0"/>
+                            <constraint firstItem="h3M-ds-tY6" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="dbT-XB-sxQ"/>
+                            <constraint firstItem="h3M-ds-tY6" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="pHv-Qu-9q2"/>
+                            <constraint firstItem="J64-GI-xoM" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" constant="-3" id="tYE-og-ZLu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
